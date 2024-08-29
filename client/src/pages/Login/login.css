@@ -1,0 +1,33 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  width: 40%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 15px 15px 44px rgba(0, 0, 0, 0.25);
+}
+
+.input-password-container {
+  position: relative;
+  width: 100%;
+}
+
+.info-button {
+  position: absolute;
+  right: 10px;
+  bottom: -5px;
+  cursor: pointer;
+  opacity: 0.5;
+}

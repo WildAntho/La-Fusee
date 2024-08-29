@@ -1,0 +1,34 @@
+.additional-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.additional-first-bloc {
+  height: 80%;
+  width: 50%;
+}
+
+.additional-first-bloc img {
+  height: 100%;
+  width: 100%;
+}
+
+.additional-second-bloc {
+  position: relative;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 20px;
+  width: 50%;
+  border-top-right-radius: 120px;
+}
+
+.pictomore {
+  position: absolute;
+  top: -40px;
+  left: -55px;
+}

@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  background-color: #212121;
+  width: 100vw;
+  height: 130px;
+  padding-left: 120px;
+  color: rgb(230, 230, 230);
+}
+
+.world {
+  font-size: 20px;
+}
+
+.arval {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.arval:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}

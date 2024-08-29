@@ -1,0 +1,42 @@
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.formule-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.essential,
+.plus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  width: 50%;
+  padding: 30px 50px;
+  border-top-right-radius: 150px;
+}
+
+.essential {
+  background-color: #ffcf20;
+}
+
+.plus {
+  position: relative;
+  background-color: #e6ecba;
+}
+
+.pictocar {
+  position: absolute;
+  top: -137px;
+  right: 50px;
+  width: 250px;
+}

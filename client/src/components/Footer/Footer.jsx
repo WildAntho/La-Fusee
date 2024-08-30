@@ -6,8 +6,12 @@ export default function Footer() {
   return (
     <footer>
       <TfiWorld className="world" />
-      <p className="arval">Arval.com</p>
-      <MdArrowRightAlt className="arrow" />
+      <a href="https://www.arval.com/" target="blank">
+        <p className="arval">Arval.com</p>
+      </a>
+      <a href="https://www.arval.com/" target="blank">
+        <MdArrowRightAlt className="arrow" />
+      </a>
     </footer>
   );
 }

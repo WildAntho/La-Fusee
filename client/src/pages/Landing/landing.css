@@ -5,11 +5,15 @@ main {
   align-items: center;
 }
 
+.banner {
+  width: 100vw;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 80px;
-  margin: 50px 200px;
+  margin: 50px 15%;
 }

@@ -10,7 +10,7 @@
 }
 
 .additional-first-bloc img {
-  height: 100%;
+  height: 80%;
   width: 100%;
 }
 
@@ -24,6 +24,7 @@
   padding: 60px 40px;
   gap: 20px;
   width: 50%;
+  height: 100%;
   border-top-right-radius: 120px;
 }
 

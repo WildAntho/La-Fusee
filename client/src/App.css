@@ -72,3 +72,8 @@ li {
 span {
   color: #00925b;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}

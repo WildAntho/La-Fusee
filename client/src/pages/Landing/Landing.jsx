@@ -10,7 +10,7 @@ export default function Landing() {
   return (
     <main>
       <Header />
-      <img src={Hero} alt="banner" />
+      <img src={Hero} alt="banner" className="banner"/>
       <section className="content">
         <Introduction />
         <Additonal />

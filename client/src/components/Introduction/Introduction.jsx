@@ -1,5 +1,5 @@
 import "./introduction.css";
-import pictoelectrique from "../../../public/pictoelectrique.png"
+import pictoelectrique from "../../../public/pictoelectrique.png";
 
 export default function Introduction() {
   return (
@@ -25,7 +25,7 @@ export default function Introduction() {
             France métropolitaine (dont Corse).
           </li>
           <li>
-            3. Un <span>SMS et/ou un mail de confirmation</span>S leur est
+            3. Un <span>SMS et/ou un mail de confirmation</span> leur est
             envoyé, où sont indiqués :
             <div className="list-bloc">
               <p>- la période de réservation</p>
@@ -34,7 +34,11 @@ export default function Introduction() {
             </div>
           </li>
         </ul>
-        <img src={pictoelectrique} alt="picto-electrique" className="pictoelectrique"/>
+        <img
+          src={pictoelectrique}
+          alt="picto-electrique"
+          className="pictoelectrique"
+        />
       </article>
     </section>
   );
